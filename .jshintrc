@@ -1,0 +1,16 @@
+{
+    "camelcase": true,
+    "eqeqeq": true,
+    "es3": true,
+    "latedef": true,
+    "newcap": true,
+    "quotmark": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+
+    "expr": true,
+
+    "browser": true,
+    "jquery": true
+}
