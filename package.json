@@ -1,16 +1,19 @@
 {
-    "name": "gf",
-    "version": "0.0.1",
-    "description": "A simple front-end framework",
-    "author": "GilbertSun <szb4321@gmail.com>",
-    "repository" : {
-        "type" : "git",
-        "url" : "https://github.com/GilbertSun/gf.git"
-    },
-    "keywords": [
-        "front-end",
-        "ui",
-        "framework"
-    ],
-    "license": "MIT"
+  "name": "gf",
+  "version": "0.0.1",
+  "description": "A simple front-end framework",
+  "author": "GilbertSun <szb4321@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GilbertSun/gf.git"
+  },
+  "keywords": [
+    "front-end",
+    "ui",
+    "framework"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^1.11.0"
+  }
 }
