@@ -7,6 +7,51 @@
     <script src="../libs/config.js"></script>
 </head>
 <body>
+    <h1>this is a demo for Form validation</h1>
+    <form action=".">
+        <div>
+            <label for="username">
+                用户名
+                <input type="text" name="username" required>
+            </label>
+        </div>
+        <div>
+            <label for="password">
+                密码
+                <input type="password" name="password" required>
+            </label>
+        </div>
+        <div>
+            <label for="birthday">
+                生日
+                <input type="date" name="birthday" required>
+            </label>
+        </div>
+        <div>
+            <label for="birthday">
+                数值
+                <input type="number" name="birthday">
+            </label>
+        </div>
+        <div>
+            <label for="birthday">
+                用户名
+                <input type="range" name="birthday">
+            </label>
+        </div>
+        <div>
+            <label for="birthday">
+                用户名
+                <input type="color" name="birthday">
+            </label>
+        </div>
+        <input type="submit" value="njwfb">
+    </form>
 
+    <script>
+        require(['module/validate/index'], function (Validate) {
+
+        });
+    </script>
 </body>
 </html>
