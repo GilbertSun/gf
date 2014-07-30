@@ -12,19 +12,19 @@
         <div>
             <label for="username">
                 用户名
-                <input type="text" name="username" required>
+                <input type="text" name="username" data-validate="required">
             </label>
         </div>
         <div>
             <label for="password">
                 密码
-                <input type="password" name="password" required>
+                <input type="password" name="password">
             </label>
         </div>
         <div>
             <label for="birthday">
                 生日
-                <input type="date" name="birthday" required>
+                <input type="date" name="birthday">
             </label>
         </div>
         <div>
@@ -50,7 +50,11 @@
 
     <script>
         require(['module/validate/index'], function (Validate) {
+            var validate = new Validate($('form'));
 
+            $('input').change(function () {
+                validate.validate();
+            });
         });
     </script>
 </body>
