@@ -23,5 +23,6 @@ root/
   `-- package.json
 ```
 
-## 项目依赖
+## 测试
 
+测试使用jasmine框架
