@@ -25,4 +25,4 @@ root/
 
 ## 测试
 
-测试使用jasmine框架
+测试使用jasmine框架进行单元测试
