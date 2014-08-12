@@ -20,6 +20,7 @@ root/
   |-- doc      项目的文档
   |-- examples 项目中的演示例子
   |-- src      项目中中司机的模块代码
+  |-- test     项目中中司机的模块代码
   `-- package.json
 ```
 
