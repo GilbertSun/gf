@@ -82,7 +82,7 @@ void function () {
             var data = $(this).data('qbt.tab');
             var options = typeof option === 'object' && option;
 
-            if (!data) $this.data('qbt.tab', (data = new Tab(this, options)));
+            if (!data) $this.data('qbt.tab', (new Tab(this, options)));
         });
     };
 
