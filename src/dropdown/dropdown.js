@@ -6,6 +6,7 @@
  */
 
 void function ($) {
+    'use strict';
     /* DROPDOWN CLASS DEFINITION
     * ========================= */
 
@@ -33,7 +34,7 @@ void function ($) {
                         e.stopPropagation();
                     });
             }
-            $('html').add($dropdownMenu).bind('click.dropdown.data-api', function (e) {
+            $('html').add($dropdownMenu).bind('click.dropdown.data-api', function () {
                 $el.parent().removeClass('open');
             });
 
@@ -59,7 +60,7 @@ void function ($) {
 
         constructor: Dropdown,
 
-        toggle: function (e) {
+        toggle: function () {
             var $this = $(this),
                 $parent, isActive;
 
@@ -167,7 +168,7 @@ void function ($) {
         stickShowMenu: false,
         dropdownMenuClass: '.dropdown-menu',
         triggerClassName: '.dropdown-toggle',
-        preventSrcoll: false
+        preventScroll: false
     };
 
     $.fn.dropdown.Constructor = Dropdown;
