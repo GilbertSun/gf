@@ -6,7 +6,6 @@ define(['jquery', './item'], function ($, ValidateItem) {
             return new ValidateItem($(this), $(this).data('validate'));
         });
     };
-
     Validate.prototype.validate = function (passed, failed) {
         $.each(this.validateItems, function (i, items) {
             items.validate();
